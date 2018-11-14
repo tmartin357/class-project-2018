@@ -1,0 +1,37 @@
+<!-- <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href='{{ "/" | relative_url }}'>{{ site.title }}</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colnavbar" aria-controls="colnavbar"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="colnavbar">
+    <ul class="nav navbar-nav">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Webmastering
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            {% for page in site.webclasses %}
+            <a class="dropdown-item" href="{{ page.url | relative_url }}">{{ page.title }}</a>
+            {% endfor %}
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav> -->
+
+<div class="navbar navbar-default">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="{{ '/' | relative_url }}">Brand</a>
+  </div>
+  <div class="navbar-collapse collapse navbar-responsive-collapse">
+    <ul class="nav navbar-nav">
+      <li><a href="{{ '/example.html' | relative_url }}">!!!Example_Page!!!</a></li>
+    </ul>
+  </div>
+</div>
