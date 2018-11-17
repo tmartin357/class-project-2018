@@ -1,0 +1,44 @@
+.lesser-price {
+  border-style: solid; 
+  border-color: #555555;
+  margin-top: 35px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.greater-price {
+  border-style: solid; 
+  border-color: #af27c4;
+  /* padding-top: 1cm;
+  padding-bottom: 1cm; */
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.class-head{
+  margin: 20px;
+}
+
+.class-price {
+  background-color: #5f106c;
+  padding: 15px;
+}
+
+.class-price>h2 {
+  margin: 0px;
+}
+
+.class-info {
+  margin: 20px;
+}
+
+.greater-buff {
+  padding: 25px;
+  margin: 0px;
+}
+
+.vcent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
