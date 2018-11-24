@@ -42,3 +42,25 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.wrapper h1{
+  text-align: center;
+
+}
+.wrapper{
+  background-image: url("https://www.technobezz.com/best/wp-content/uploads/2015/10/www.youtube.com_-1026x500.jpg");
+  height: 500px;
+}
+p {
+  font-size: 16px;
+}
+.margin h2 {
+  font-family:times new romans;
+  font-style: italic;
+  text-decoration-color: red;
+}
+.bg-2 {
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+    height:150px;
+}
