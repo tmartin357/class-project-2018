@@ -74,3 +74,35 @@ p {
   width: 700px;
   align: center;
 }
+.card-img-top-left {
+  margin: 79px 30px 2px 9px;
+  border:1px solid #D8D7D8;
+}
+.card-img-top-right {
+    margin: 79px 30px 2px 0px;
+    border:1px solid #D8D7D8;
+}
+.card-img-bottom-left {
+  margin: 30px 30px 2px 25px;
+  border:1px solid #D8D7D8;
+}
+.card-img-bottom-right {
+  margin: 30px 30px 2px 0px;
+  border:1px solid #D8D7D8;
+}
+.card h-100 {
+    margin: 150px;
+}
+.my-4 {
+      padding-bottom: 5px;
+      margin: 20px 0;
+}
+.card-body  {
+    margin-left: 225px;
+}
+.card-body1  {
+    margin-left: 235px;
+}
+.card-body2  {
+    margin-left: 250px;
+}
