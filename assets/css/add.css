@@ -76,19 +76,19 @@ p {
 }
 .card-img-top-left {
   margin: 79px 30px 2px 9px;
-  border:1px solid #D8D7D8;
+  border:1px solid #5f106c;
 }
 .card-img-top-right {
     margin: 79px 30px 2px 0px;
-    border:1px solid #D8D7D8;
+    border:1px solid #5f106c;
 }
 .card-img-bottom-left {
   margin: 30px 30px 2px 25px;
-  border:1px solid #D8D7D8;
+  border:1px solid #5f106c;
 }
 .card-img-bottom-right {
   margin: 30px 30px 2px 0px;
-  border:1px solid #D8D7D8;
+  border:1px solid #5f106c;
 }
 .card h-100 {
     margin: 150px;
