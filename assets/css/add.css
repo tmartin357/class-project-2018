@@ -48,9 +48,10 @@
 
 }
 .wrapper{
-  background-image: url("https://www.technobezz.com/best/wp-content/uploads/2015/10/www.youtube.com_-1026x500.jpg");
+  /* background-image: url("https://www.technobezz.com/best/wp-content/uploads/2015/10/www.youtube.com_-1026x500.jpg"); */
   height: 500px;
 }
+
 p {
   font-size: 16px;
 }
