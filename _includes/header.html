@@ -14,5 +14,8 @@
       <li><a href="{{ '/faq.html' | relative_url }}">FAQ</a></li>
       <li><a href="{{ '/events.html' | relative_url }}">Events</a></li>
     </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="{{ (page.backref | default: '/login.html') | relative_url }}">{{ page.logout | default: "Login" }}</a></li>
+    </ul>
   </div>
 </div>
