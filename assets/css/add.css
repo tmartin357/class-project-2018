@@ -70,9 +70,7 @@ p {
 }
 .panel-group{
   display: inline-block;
-  padding-left: 300px;
   box-sizing: content-box;
-  width: 700px;
   align: center;
 }
 .card-img-top-left {
